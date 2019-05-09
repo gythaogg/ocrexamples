@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>OCR Structure Examples</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+     /* Remove the navbar's default margin-bottom and rounded borders */ 
+     .navbar {
+       margin-bottom: 0;
+       border-radius: 0;
+     }
+     
+     /* Add a gray background color and some padding to the footer */
+     footer {
+       background-color: #f2f2f2;
+       padding: 25px;
+     }
+     .col-sm-3{
+       max-width: 23%;
+       background-color: beige;
+       margin: 1%;
+     }
+     .col-sm-3 p{
+       text-align: left;
+       padding: 0 15%;
+     }
+     @media screen and (max-width: 767px) {
+       .col-sm-3{
+	 max-width:100%
+       }
+    </style>
+  </head>
+  <body>
+
+
+    <div class="jumbotron">
+      <div class="container text-center">
+	<h1></h1>      
+	<p>A gallery of examples showcasing complications that arise in mass digitisations of books</p>
+      </div>
+    </div>
+    
+    <div class="container-fluid bg-3 text-center">    
+      <div class="row">
+	<div class="col-sm-3"> 
+	  <a href="artefacts.html">
+	    <h2>Artefacts</h2>
+	  </a>
+	  <p>Pages where OCR engines detect "texts" that do not actually exist</p>
+	</div>
+	<div class="col-sm-3">
+
+	  <a href="paras.html">
+	    <h2>False paragraphs</h2>
+	  </a>
+	  <p>Examples where OCR engines arbitrarily introduce paragraph breaks in text</p>
+	</div>
+	<div class="col-sm-3">
+
+	  <a href="margin.html">
+	    <h2>Margin texts</h2>
+	  </a>
+	  <p>Texts in page margins like header, page number, footer, footnotes, etc.</p>
+	</div>
+	<div class="col-sm-3">
+
+	  <a href="layouts.html">
+	    <h2>Complex layouts</h2>
+	  </a>
+	  <p>Complex layouts such as tables, double or triple column layouts, etc. </p>
+	</div>
+      </div>
+    </div><br>
+
+    <div class="container-fluid bg-3 text-center">    
+
+      <div class="row">
+	<div class="col-sm-3"> 
+	  <a href="lists.html">
+	    <h2>Lists</h2>
+	  </a>
+	  <p>Structured lists with and without numbers/bullet points</p>
+	</div>
+	<div class="col-sm-3"> 
+	  <a href="quotes.html">
+	    <h2>Quotes</h2>	    
+	  </a>
+	  <p>Quoted texts either in blocks or inline, verses, etc.</p>
+	</div>
+	<div class="col-sm-3">
+	  <a href="images.html">
+	    <h2>Images</h2>
+	  </a>
+	  <p>Text recognised by the OCR engine from regions of page containing non-textual content like images, plots, etc.</p>
+
+	</div>
+	<div class="col-sm-3">
+	  <a href="multiling.html">
+	    <h2>Multilingual content</h2>
+	  </a>
+	  <p>Text in more than one language, either in separate paragraphs or interspersed within the text.</p>
+	</div>
+      </div>
+    </div><br><br>
+
+
+  </body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Layouts in OCR</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+     /* Remove the navbar's default margin-bottom and rounded borders */ 
+     .navbar {
+       margin-bottom: 0;
+       border-radius: 0;
+     }
+     
+     /* Add a gray background color and some padding to the footer */
+     footer {
+       background-color: #f2f2f2;
+       padding: 25px;
+     }
+     .col-sm-3{
+       max-width: 23%;
+       background-color: beige;
+       margin: 1%;
+       min-height: 180px;
+     }
+     .col-sm-3 p{
+       text-align: left;
+       padding: 0 15%;
+     }
+     @media screen and (max-width: 767px) {
+       .col-sm-3{
+	 max-width:100%
+	 min-height:0;
+       }
+
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+	  </button>
+	  <!-- <a class="navbar-brand" href="http://gythaogg.github.io" > </a> -->
+	</div>
+	<div class="collapse navbar-collapse" id="myNavbar">
+	  <ul class="nav navbar-nav">
+	    <li class="active"><a href="index.html">Home</a></li>
+	    
+	      <li><a href="paras.html" title="False paragraphs">False paragraphs</a></li>
+	    
+	      <li><a href="margins.html" title="Margin texts">Margin texts</a></li>
+	    
+	      <li><a href="quotes.html" title="Quotes">Quotes</a></li>
+	    
+	      <li><a href="artefacts.html" title="Artefacts">Artefacts</a></li>
+	    
+	      <li><a href="lists.html" title="Lists">Lists</a></li>
+	    
+	      <li><a href="layouts.html" title="Layouts">Layouts</a></li>
+	    
+	      <li><a href="images.html" title="Images">Images</a></li>
+	    
+	      <li><a href="multilingual.html" title="Multilingual">Multilingual</a></li>
+	        
+	  </ul>
+	</div>
+      </div>
+    </nav>
+
+    <div class="jumbotron">
+      <div class="container text-center">
+	<h1>Layouts</h1>      
+	<p>A gallery of examples showcasing complications that arise in mass digitisations</p>
+      </div>
+    </div>
+    
+    <div class="container-fluid bg-3 text-center">    
+      <div class="row">
+	
+	  <div class="col-sm-3"> 	    
+	    <a href="AC15043911_p4.html">
+	      <h3>AC15043911, p4</h3>
+	    </a>
+	    <p>Correctly identified multicolumn layout, but with unnecessary paragraph breaks</p>
+	  </div>
+	  
+	  <div class="col-sm-3"> 	    
+	    <a href="AC15094241_p4.html">
+	      <h3>AC15094241, p4</h3>
+	    </a>
+	    <p>Table across two pages; columns correctly segmented - but "paragraphs" formed inside table contents is arbitrary</p>
+	  </div>
+	  
+	  <div class="col-sm-3"> 	    
+	    <a href="AC15145934_p39.html">
+	      <h3>AC15145934, p39</h3>
+	    </a>
+	    <p>Two column layout mistaken as single column</p>
+	  </div>
+	  
+	  <div class="col-sm-3"> 	    
+	    <a href="AC15145934_p40.html">
+	      <h3>AC15145934, p40</h3>
+	    </a>
+	    <p>Two column layout mistaken as single column</p>
+	  </div>
+	  
+	  <div class="col-sm-3"> 	    
+	    <a href="AC15195525_p27.html">
+	      <h3>AC15195525, p27</h3>
+	    </a>
+	    <p>Text in illustration misidentified as paragraphs</p>
+	  </div>
+	  
+	  <div class="col-sm-3"> 	    
+	    <a href="AC15145934_p32.html">
+	      <h3>AC15145934, p32</h3>
+	    </a>
+	    <p>"}" spanning over multiple lines is used to represent grouping in a multicolumn layout - which is completely missed in the OCR "paragraphs"</p>
+	  </div>
+	  
+      </div>
+    </div><br><br>
+
+
+  </body>
+</html>

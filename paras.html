@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>False paragraphs in OCR</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+     /* Remove the navbar's default margin-bottom and rounded borders */ 
+     .navbar {
+       margin-bottom: 0;
+       border-radius: 0;
+     }
+     
+     /* Add a gray background color and some padding to the footer */
+     footer {
+       background-color: #f2f2f2;
+       padding: 25px;
+     }
+     .col-sm-3{
+       max-width: 23%;
+       background-color: beige;
+       margin: 1%;
+       min-height: 180px;
+     }
+     .col-sm-3 p{
+       text-align: left;
+       padding: 0 15%;
+     }
+     @media screen and (max-width: 767px) {
+       .col-sm-3{
+	 max-width:100%
+	 min-height:0;
+       }
+
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+	  </button>
+	  <!-- <a class="navbar-brand" href="http://gythaogg.github.io" > </a> -->
+	</div>
+	<div class="collapse navbar-collapse" id="myNavbar">
+	  <ul class="nav navbar-nav">
+	    <li class="active"><a href="index.html">Home</a></li>
+	    
+	      <li><a href="paras.html" title="False paragraphs">False paragraphs</a></li>
+	    
+	      <li><a href="margins.html" title="Margin texts">Margin texts</a></li>
+	    
+	      <li><a href="quotes.html" title="Quotes">Quotes</a></li>
+	    
+	      <li><a href="artefacts.html" title="Artefacts">Artefacts</a></li>
+	    
+	      <li><a href="lists.html" title="Lists">Lists</a></li>
+	    
+	      <li><a href="layouts.html" title="Layouts">Layouts</a></li>
+	    
+	      <li><a href="images.html" title="Images">Images</a></li>
+	    
+	      <li><a href="multilingual.html" title="Multilingual">Multilingual</a></li>
+	        
+	  </ul>
+	</div>
+      </div>
+    </nav>
+
+    <div class="jumbotron">
+      <div class="container text-center">
+	<h1>False paragraphs</h1>      
+	<p>A gallery of examples showcasing complications that arise in mass digitisations</p>
+      </div>
+    </div>
+    
+    <div class="container-fluid bg-3 text-center">    
+      <div class="row">
+	
+	  <div class="col-sm-3"> 	    
+	    <a href="AC15093899_p2.html">
+	      <h3>AC15093899, p2</h3>
+	    </a>
+	    <p>Artefacts on left and top margin of the page. False "paragraphs" in the last 5 lines.</p>
+	  </div>
+	  
+	  <div class="col-sm-3"> 	    
+	    <a href="AC15043911_p4.html">
+	      <h3>AC15043911, p4</h3>
+	    </a>
+	    <p>Correctly identified multicolumn layout, but with unnecessary paragraph breaks</p>
+	  </div>
+	  
+	  <div class="col-sm-3"> 	    
+	    <a href="AC15093899_p6.html">
+	      <h3>AC15093899, p6</h3>
+	    </a>
+	    <p>Many false "paragraphs" and OCR artefacts</p>
+	  </div>
+	  
+	  <div class="col-sm-3"> 	    
+	    <a href="AC15145934_p41.html">
+	      <h3>AC15145934, p41</h3>
+	    </a>
+	    <p>Multilingual text, font sizes are different for different languages - consequently line heights for different languages also vary. Indented list inside footnote is extracted into a separate paragraph.</p>
+	  </div>
+	  
+	  <div class="col-sm-3"> 	    
+	    <a href="AC15180807_p1.html">
+	      <h3>AC15180807, p1</h3>
+	    </a>
+	    <p>Poor quality of the original manuscript with good text recognition but poor paragraph breaks.</p>
+	  </div>
+	  
+	  <div class="col-sm-3"> 	    
+	    <a href="AC15182643_p7.html">
+	      <h3>AC15182643, p7</h3>
+	    </a>
+	    <p>Badly segmented footnote; multilingual text</p>
+	  </div>
+	  
+	  <div class="col-sm-3"> 	    
+	    <a href="AC15214879_p28.html">
+	      <h3>AC15214879, p28</h3>
+	    </a>
+	    <p>Contains Latin and German; latin is present as isolated blocks as well as interspresed with German text in prose, but they have distinct formats. Besides artefacts, the paragraph segmentation is poor.</p>
+	  </div>
+	  
+	  <div class="col-sm-3"> 	    
+	    <a href="AC15278749_p1.html">
+	      <h3>AC15278749, p1</h3>
+	    </a>
+	    <p>Bad paragraph segmentation; footer text is grouped with the last line of the paragraph in the main body.</p>
+	  </div>
+	  
+	  <div class="col-sm-3"> 	    
+	    <a href="AC15284427_p25.html">
+	      <h3>AC15284427, p25</h3>
+	    </a>
+	    <p>Multilingual text with somewhat poor paragraph segmentation</p>
+	  </div>
+	  
+	  <div class="col-sm-3"> 	    
+	    <a href="AC15285666_p4.html">
+	      <h3>AC15285666, p4</h3>
+	    </a>
+	    <p>Artefacts and bad paragraph segmentation - text is inexplicably broken into many false paragraphs</p>
+	  </div>
+	  
+      </div>
+    </div><br><br>
+
+
+  </body>
+</html>
